@@ -1,0 +1,158 @@
+/*Globales*/
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 2vh;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contenedor {
+  max-width: 1280px !important;
+  width: 100% !important;
+  margin: auto;
+}
+
+div.row {
+  margin-right: 0 !important;
+}
+.flex{
+  display: flex;
+}
+/*Header*/
+.header-background {
+  background-color: #282c34;
+  width: 100%;
+  height: 14vh;
+}
+.headerText{
+  color:white;
+  margin-top: 4vh;
+  margin-left: 2vh;
+  font-size: 30px;
+  font-family: 'Margarine', cursive;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 1.5vh;
+}
+
+.Page-navigation {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  margin-bottom: 5vh;
+}
+.navbar .dropdown-menu a {
+  padding: 10px;
+  font-size: 0.9375rem;
+  font-weight: 300;
+  color: #000!important;
+}
+.dropdown-menu{
+  background-color: white!important;
+}
+/*Movies index pages*/
+.movies {
+  width: 300px;
+  height: 250px;
+}
+
+.cartas {
+  width: 300px;
+  height: 250px;
+  margin-top: 8vh;
+  margin-right: 5vh;
+}
+
+.card-img-overlay {
+  padding: 0 !important;
+}
+
+.card-title {
+  color: white;
+  background: rgb(0, 0, 0);
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  text-align: center;
+  bottom: 0 !important;
+}
+.card{
+  margin-bottom: 4vh!important;
+}
+.row>div[class*='col-'] {
+  display: flex;
+}
+
+.footer-card {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 17px;
+  color: white;
+  background: rgb(0, 0, 0) !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+  padding: 3px;
+  z-index: 100;
+}
+div.footer-card.card-footer p{
+  margin-bottom: 0!important;
+}
+/*Movies Details Pages*/
+.movieTitle {
+  margin-top: 5vh;
+  font-size: 22px;
+}
+
+.release-date {
+  margin-top: 2vh;
+}
+
+.title-rated {
+  margin-bottom: 2vh;
+  font-family: 'Anton', sans-serif !important;
+  text-align: center;
+}
+/*Footer*/
+footer {
+  margin-top: 10vh;
+}
+
+.footerBackground {
+  background: #2f2f2f;
+  padding: 40px 0;
+  text-align: center;
+  bottom: 0;
+  position: relative;
+}
+
+
+.footerText{
+color: white;
+}
+/*Responsive*/
+@media (max-width: 1024px) {
+  .movieDetail {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .overview {
+    margin-top: 2vh;
+  }
+ 
+}
