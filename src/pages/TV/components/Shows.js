@@ -52,7 +52,7 @@ class Shows extends Component {
         <div className="row">
           {this.state.shows.map(show => (
             <React.Fragment key={show.id}>
-              <Card inverse className="cartas">
+              <Card inverse className="cartas-rated">
 
                 <CardImg
                   src={IMAGE + show.backdrop_path}

@@ -52,7 +52,7 @@ class Movies extends Component {
         <div className="row">
           {this.state.movies.map(movie => (
             <React.Fragment key={movie.id}>
-              <Card inverse className="cartas">
+              <Card inverse className="cartas-rated">
 
                 <CardImg
                   src={IMAGE + movie.backdrop_path}
