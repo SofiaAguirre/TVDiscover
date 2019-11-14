@@ -162,5 +162,7 @@ color: white;
   .overview {
     margin-top: 2vh;
   }
- 
+  .card{
+    left : 4vh!important;
+  }
 }
