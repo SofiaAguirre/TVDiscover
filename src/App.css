@@ -162,7 +162,9 @@ color: white;
   .overview {
     margin-top: 2vh;
   }
- 
+  .card{
+    left : 4vh!important;
+  }
 }
 @media (max-height: 670px) {
  .logo{
