@@ -164,3 +164,9 @@ color: white;
   }
  
 }
+@media (max-height: 670px) {
+ .logo{
+  width: 60px;
+  height: 60px;
+ }
+}
